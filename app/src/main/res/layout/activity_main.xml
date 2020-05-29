@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/activity_main_greeting_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:textColor="@color/Purple"
+        android:text="Hello to Quizzland!"
+         />
+    <EditText
+        android:id="@+id/activity_main_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:padding="20dp"
+        android:hint="Please type your name">
+        </EditText>
+    <Button
+        android:id="@+id/activity_main_play_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:background= "#FF008080"
+        android:text="Play the game"
+    ></Button>
+    <Button
+        android:id="@+id/activity_main_delete_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:background= "#FF008080"
+        android:text="Delete user info"
+        ></Button>
+</LinearLayout>
